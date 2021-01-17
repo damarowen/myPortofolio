@@ -19,6 +19,17 @@
     box-sizing: inherit;
 }
 
+/* * effect for scroll nav * */
+.scroll .nav-list a {
+color: white;
+transition: background 500ms;
+  }
+
+.scroll {
+    background:rgba(133, 133, 133, 0.3);
+}
+  
+
 html {
     box-sizing: border-box;
 
@@ -78,6 +89,23 @@ ul {
 }
 
 
+label{
+    display: block;
+    font-size: 4rem;
+    padding: 10px;
+
+}
+
+input{
+    max-width: 100%;
+    padding: 10px;
+    font-size: 2rem;
+    margin-bottom: 2em;
+
+}
+.container{
+    margin: auto;
+}
 
 /* nav */
 nav {
@@ -101,7 +129,7 @@ nav {
 }
 
 .nav-list a:hover {
-    border-bottom: 3px solid var(--main-blue);
+    border-bottom: 3px solid var(--main-red);
 }
 
 
@@ -223,7 +251,8 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 85vh;
+    /* height: 85vh; */
+    margin: 3em;
 
 }
 
@@ -232,7 +261,7 @@ img {
 } */
 
 .contacts-header>h2 {
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 .contacts-header>p {
@@ -295,4 +324,6 @@ footer i {
     font-size: 4rem;
 
 }
+
+
 }
