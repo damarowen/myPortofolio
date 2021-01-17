@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Damarowen/myPortofolio/issues"
   },
-  "homepage": "https://github.com/Damarowen/myPortofolio#readme"
+  "homepage": "https://github.com/Damarowen/myPortofolio#readme",
+  "dependencies": {
+    "typeit": "^7.0.4"
+  }
 }
