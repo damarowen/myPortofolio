@@ -4,6 +4,7 @@
     --main-red: #be3144;
     --main-blue: #45567d;
     --main-gray: #303841;
+    --main-green: #1abc9c;
 }
 
 
@@ -21,14 +22,14 @@
 
 /* * effect for scroll nav * */
 .scroll .nav-list a {
-color: white;
-transition: background 500ms;
-  }
+    color: white;
+    transition: background 500ms;
+}
 
 .scroll {
-    background:rgba(133, 133, 133, 0.3);
+    background: rgba(133, 133, 133, 0.3);
 }
-  
+
 
 html {
     box-sizing: border-box;
@@ -82,28 +83,30 @@ ul {
 }
 
 
-.btn {
-    display: inline-block;
-    padding: 1rem 2rem;
-    border-radius: 2px;
-}
 
-
-label{
+label {
     display: block;
     font-size: 4rem;
     padding: 10px;
 
 }
 
-input{
-    max-width: 100%;
-    padding: 10px;
-    font-size: 2rem;
-    margin-bottom: 2em;
+
+
+input {
+    font-size: 3rem;
+    margin: 40px 25px;
+    display: block;
+    border: none;
+    padding: 10px 20px;
+    border-bottom: solid 1px var(--main-green);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 96%, var(--main-green) 4%);
 
 }
-.container{
+
+
+
+.container {
     margin: auto;
 }
 
@@ -129,7 +132,7 @@ nav {
 }
 
 .nav-list a:hover {
-    border-bottom: 3px solid var(--main-red);
+    border-bottom: 3px solid var(--main-green);
 }
 
 
@@ -159,7 +162,7 @@ nav {
     background: var(--main-gray);
     text-align: center;
     padding: 7rem 1rem;
-color: white;
+    color: white;
 }
 
 
@@ -179,11 +182,14 @@ color: white;
 
 .project-tile {
     width: 100%;
-    background: var(--main-gray);
+    background: var(--main-blue);
     color: var(--main-white);
     text-decoration: none;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+
 }
 
 .project-title {
@@ -206,6 +212,23 @@ color: white;
 
 .project-title:hover .code {
     color: var(--main-red);
+}
+
+.button {
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 3rem;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.button:hover {
+    transform: translateY(-7px);
 }
 
 
@@ -309,21 +332,21 @@ footer i {
 
 @media (min-width: 660px) {
     #contacts {
-    height: 70vh;
-}
+        height: 70vh;
+    }
 
-.contacts-header>h2 {
-    font-size: 8rem;
-}
+    .contacts-header>h2 {
+        font-size: 8rem;
+    }
 
-.contact-details {
-    font-size: 3rem;
-}
+    .contact-details {
+        font-size: 3rem;
+    }
 
-.project-header {
-    font-size: 4rem;
+    .project-header {
+        font-size: 4rem;
 
-}
+    }
 
 
 }
