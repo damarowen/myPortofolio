@@ -3,7 +3,7 @@
   
   new TypeIt("#formElement1", {
   strings: "Damar Oen I",
-  cursor: true	
+  cursor: true,
 }).go();
 
 

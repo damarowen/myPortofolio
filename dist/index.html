@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,156 +9,199 @@
 
     <link rel="stylesheet" href="./assets/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script></head>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+</head>
+
 <body>
-   
-
-<!-- START NAV -->
-
-<nav id="navbar">
-    <ul class="nav-list">
-        <li>
-            <a href="#welcome-section">About</a>
-        </li>
-        <li>
-            <a href="#projects">Work</a>
-        </li>
-        <li>
-            <a href="#contacts">Contact</a>
-        </li>
-    </ul>
-</nav>
 
 
-<!-- END NAV -->
+    <!-- START NAV -->
 
-<!-- START WELCOME SECTION -->
-<main>
-    <section id="welcome-section">
-
-        <div class="container">
-
-            <label>Full Name</label>
-            <input type="text" id="formElement1" />
-
-            <label>Occupation</label>
-            <input type="text" id="formElement2" />
-
-            <label>Hobby</label>
-            <input type="text" id="formElement3" />
-        </div>
-          
+    <nav id="navbar">
+        <ul class="nav-list">
+            <li>
+                <a href="#welcome-section">About</a>
+            </li>
+            <li>
+                <a href="#projects">Work</a>
+            </li>
+            <li>
+                <a href="#contacts">Contact</a>
+            </li>
+        </ul>
+    </nav>
 
 
-    </section>
-    <section id="projects">
-        <header class="project-header">
-            <h2>These are some of my projects</h2>
-        </header>
-        <div class="project-grid">
-            <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" target="_blank" class="project-tile">
-                <img class="project-image"
-                    src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tribute.jpg"
-                    alt="project" />
-                <p class="project-title">
-                    <span class="code">&lt;</span>
-                    Tribute Page
-                    <span class="code">&#47;&gt;</span>
-                </p>
-            </a>
-            <a href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank" class="project-tile">
-                <img class="project-image"
-                    src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/random-quote-machine.png"
-                    alt="project" />
-                <p class="project-title">
-                    <span class="code">&lt;</span>
-                    Random Quote Machine
-                    <span class="code">&#47;&gt;</span>
-                </p>
-            </a>
-            <a href="https://codepen.io/freeCodeCamp/full/wgGVVX" target="_blank" class="project-tile">
-                <img class="project-image"
-                    src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/calc.png"
-                    alt="project" />
-                <p class="project-title">
-                    <span class="code">&lt;</span>
-                    JavaScript Calculator
-                    <span class="code">&#47;&gt;</span>
-                </p>
-            </a>
-            <a href="https://codepen.io/freeCodeCamp/full/mVEJag" target="_blank" class="project-tile">
-                <img class="project-image"
-                    src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/map.jpg"
-                    alt="project" />
-                <p class="project-title">
-                    <span class="code">&lt;</span>
-                    Map Data Across the Globe
-                    <span class="code">&#47;&gt;</span>
-                </p>
-            </a>
-            <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank" class="project-tile">
-                <img class="project-image"
-                    src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png"
-                    alt="project" />
-                <p class="project-title">
-                    <span class="code">&lt;</span>
-                    Wikipedia Viewer
-                    <span class="code">&#47;&gt;</span>
-                </p>
-            </a>
-            <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank" class="project-tile">
-                <img class="project-image"
-                    src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png"
-                    alt="project" />
-                <p class="project-title">
-                    <span class="code">&lt;</span>
-                    Tic Tac Toe Game
-                    <span class="code">&#47;&gt;</span>
-                </p>
-            </a>
-        </div>
-        <a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all" target="_blank">Show all<i
-                class="fas fa-chevron-right"></i></a>
-    </section>
-    <section id="contacts">
-        <header class="contacts-header">
-            <h2 id="formElement4"></h2>
-        </header>
-        <div class="contact-links">
-            <a id="profile-link" href="https://github.com/damarowen" target="_blank"
-                class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
-            <a href="https://twitter.com/damarowen" target="_blank" class="btn contact-details"><i
-                    class="fab fa-twitter"></i> Twitter</a>
-                    <a href="https://instagram.com/damarowen" target="_blank" class="btn contact-details"><i
+    <!-- END NAV -->
+
+    <!-- START WELCOME SECTION -->
+    <main>
+        <section id="welcome-section">
+
+            <div class="container">
+
+                <label>Full Name</label>
+                <input type="text" id="formElement1" disabled />
+
+                <label>Occupation</label>
+                <input type="text" id="formElement2" disabled />
+
+                <label>Hobby</label>
+                <input type="text" id="formElement3" disabled />
+            </div>
+
+
+
+        </section>
+        <section id="projects">
+            <header class="project-header">
+                <h2>These are some of my projects</h2>
+            </header>
+            <div class="project-grid">
+                <div class="project-tile">
+                    <img class="project-image"
+                        src="https://res.cloudinary.com/damarowen/image/upload/v1610721957/github%20image/KostKita_-2_pj83hn.png"
+                        alt="project" />
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        KostKita
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                    <button class="button"> <a href="http://128.199.101.166/" target="_blank">View Live </a> </button>
+                    <button class="button"> <a href="https://github.com/Damarowen/Kostkita" target="_blank"><span><i
+                                    class="fas fa-file-code"></i></span> Source Code</a> </button>
+
+                </div>
+
+                <div class="project-tile">
+                    <img class="project-image"
+                        src="https://res.cloudinary.com/damarowen/image/upload/v1610981875/github%20image/blog-1_yqhwpk.png"
+                        alt="project" />
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        My Personal Blog
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+                    <button class="button"> <a href="http://damarowen.blog/" target="_blank">View Live </a> </button>
+                    <button class="button"> <a href="https://github.com/Damarowen/newBlogs" target="_blank"><span><i
+                                    class="fas fa-file-code"></i></span> Source Code</a> </button>
+                </div>
+
+                <div class="project-tile">
+                    <img class="project-image"
+                        src="https://res.cloudinary.com/damarowen/image/upload/v1610530272/github%20image/kopkar-1_eexvcy.png"
+                        alt="project" />
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Landing Page
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+
+                    <button class="button"> <a href="https://damarowen.github.io/kopkarjamsostek/" target="_blank">View
+                            Live </a> </button>
+                    <button class="button"> <a href="https://github.com/Damarowen/kopkarjamsostek"
+                            target="_blank"><span><i class="fas fa-file-code"></i></span> Source Code</a> </button>
+                </div>
+
+
+                <div class="project-tile">
+                    <img class="project-image"
+                        src="https://res.cloudinary.com/damarowen/image/upload/v1610983708/github%20image/colorgame-1_ia9prm.png"
+                        alt="project" />
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Color Guess Game
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+
+                    <button class="button"> <a href="https://damarowen.github.io/ColorGame/" target="_blank">View Live
+                        </a> </button>
+                    <button class="button"> <a href="https://github.com/Damarowen/colorgame" target="_blank"><span><i
+                                    class="fas fa-file-code"></i></span> Source Code</a> </button>
+                </div>
+
+
+
+
+                <div class="project-tile">
+                    <img class="project-image"
+                        src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/wiki.png"
+                        alt="project" />
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Color Guess Game
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+
+                    <button class="button"> <a href="https://codepen.io/freeCodeCamp/full/wGqEga" target="_blank">View
+                            Live </a> </button>
+                    <button class="button"> <a href="https://github.com/Damarowen/colorgame" target="_blank"><span><i
+                                    class="fas fa-file-code"></i></span> Source Code</a> </button>
+                </div>
+
+                <div class="project-tile">
+                    <img class="project-image"
+                        src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/images/tic-tac-toe.png"
+                        alt="project" />
+                    <p class="project-title">
+                        <span class="code">&lt;</span>
+                        Color Guess Game
+                        <span class="code">&#47;&gt;</span>
+                    </p>
+
+                    <button class="button"> <a href="https://codepen.io/freeCodeCamp/full/KzXQgy" target="_blank">View
+                            Live </a> </button>
+                    <button class="button"> <a href="https://github.com/Damarowen/colorgame" target="_blank"><span><i
+                                    class="fas fa-file-code"></i></span> Source Code</a> </button>
+                </div>
+
+
+            </div>
+            <a href="https://codepen.io/FreeCodeCamp/" class="btn btn-show-all" target="_blank">Show all<i
+                    class="fas fa-chevron-right"></i></a>
+        </section>
+        <section id="contacts">
+            <header class="contacts-header">
+                <h2 id="formElement4"></h2>
+            </header>
+            <div class="contact-links">
+                <a id="profile-link" href="https://github.com/damarowen" target="_blank" class="btn contact-details"><i
+                        class="fab fa-github"></i> GitHub</a>
+                <a href="https://twitter.com/damarowen" target="_blank" class="btn contact-details"><i
+                        class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://instagram.com/damarowen" target="_blank" class="btn contact-details"><i
                         class="fab fa-instagram"></i> Instagram</a>
-            <a href="mailto:damarowen@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a
-                mail</a>
-                <a href="https://drive.google.com/file/d/1qe7r0sTKgBnWxQV7wSIUrAzLpBUNr8kM/view" class="btn contact-details"><i class="fas fa-file"></i> Download my Resume</a>
-        </div>
-    </section>
-</main>
+                <a href="mailto:damarowen@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a
+                    mail</a>
+                <a href="https://drive.google.com/file/d/1qe7r0sTKgBnWxQV7wSIUrAzLpBUNr8kM/view"
+                    class="btn contact-details"><i class="fas fa-file"></i> Download my Resume</a>
+            </div>
+        </section>
+    </main>
 
-<footer>
-    <p>© 2020 Damarowen</p> 
-</footer>
-<script type="text/javascript" src="./assets/script.js"></script>
+    <footer>
+        <p>© 2020 Damarowen</p>
+    </footer>
+    <script type="text/javascript" src="./assets/script.js"></script>
 
-<script>
-    // jquery scroll navbar
-$(document).ready(function() {
-  $(window).scroll(function() {
-    if ($(document).scrollTop() > 900) {
-      $("nav").addClass("scroll");
-    } else {
-      $("nav").removeClass("scroll");
-    }
-  });
-});
-</script>
+    <script>
+        // jquery scroll navbar
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(document).scrollTop() > 900) {
+                    $("nav").addClass("scroll");
+                } else {
+                    $("nav").removeClass("scroll");
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>
