@@ -291,9 +291,9 @@ img {
 .contact-links {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 100vw;
     flex-flow: row wrap;
-    padding: 10px 5px;
+    padding: 5px;
 }
 
 .contact-details {
@@ -326,18 +326,24 @@ footer i {
     vertical-align: middle;
 }
 
-@media (min-width: 400px) {
- 
-   
+@media (min-width: 440px) {
+
+
     input {
-    width: auto;
-    font-size: 3rem;
-    }    
+        width: auto;
+        font-size: 3rem;
+    }
 
     label {
         font-size: 4rem;
     }
-   
+
+    .contact-links{
+        padding: 10px 5px;
+        width: 100%;
+
+    }
+
 }
 
 @media (min-width: 660px) {
@@ -357,14 +363,16 @@ footer i {
         font-size: 4rem;
 
     }
+
     input {
-    
+
         margin: 40px 25px;
         padding: 10px 20px;
-        
-    }    
+
+    }
+
     .contact-links {
-       
+
         max-width: 60vw;
     }
 
@@ -373,8 +381,8 @@ footer i {
     }
 
 
-    
-#welcome-section {
-    height: 100vh;
-}
+
+    #welcome-section {
+        height: 140vh;
+    }
 }
