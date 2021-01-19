@@ -142,7 +142,7 @@ nav {
 #welcome-section {
     text-align: center;
     height: 120vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
